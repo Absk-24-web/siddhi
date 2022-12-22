@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Siddhi</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <section class="top-bar">
+      <div class="container">
+        <p>
+          FESTIVAL SALE: 2 JEWELERY PURCHASED, THE 3rd FREE! / FREE DELIVERY
+        </p>
+        <img src="./images/cart.png" alt="cart" />
+      </div>
+    </section>
+    <section class="banner">
+      <div class="container">
+        <div>
+          <img src="./images/logo.png" alt="logo" />
+          <span>
+            Handcrafter <br />
+            & ethically sourced
+          </span>
+          <p>
+            A collection inspired by old-world charm,<br />
+            crafte wih moisannlies and diamonds
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="info">
+      <div class="card">
+        <div class="icon">
+          <img src="./images/aero.png" />
+        </div>
+        <div class="heading">Free Shipping</div>
+        <div class="body">
+          Free Shipping On All US Order Or Order Above $200
+        </div>
+      </div>
+      <div class="card">
+        <div class="icon">
+          <img src="./images/headfone.png" />
+        </div>
+        <div class="heading">Support 24/7</div>
+        <div class="body">Contact Us 24 Hours A Day, 7 Days A Week</div>
+      </div>
+      <div class="card">
+        <div class="icon">
+          <img src="./images/reload.png" />
+        </div>
+        <div class="heading">30 Days Return</div>
+        <div class="body">Simply Return It Within 30 Days For An Exchange</div>
+      </div>
+      <div class="card">
+        <div class="icon">
+          <img src="./images/trust.png" />
+        </div>
+        <div class="heading">100% Payment Secure</div>
+        <div class="body">We Ensure Secure Payment With PEV</div>
+      </div>
+    </section>
+    <section class="item">
+      <div class="heading">The <span>Bestsellers</span></div>
+      <div class="paragraph">FESTIVAL SEASON SALE</div>
+      <div class="selector">
+        <ul id="item-list-heading"></ul>
+      </div>
+      <div class="body" id="item-list"></div>
+    </section>
+    <div class="modal-item" id="modalItem">
+      <div class="modal-body">
+        <img class="modal-image col-40" id="modalItemImage" />
+        <div class="col-60">
+          <div class="heading" id="modalItemHeading">adasdsadasdasd</div>
+          <div class="price">Rs. 246</div>
+          <div class="hatch-text">incl. local Tax & Shipping.</div>
+          <div class="description">
+            Sleek and timeless. Titanium glasses with an innovative bridge. A
+            frame to suit every face, Morgan is a classic ‘panto’ shape. Named
+            after James Morgan, the engineer who built the Regent's Canal, it
+            features custom elements including fluid single piece bridge,
+            adjustable nose pads and temple tips based on Constantin Brâncuși's
+            Bird in Space
+          </div>
+          <br /><br />
+          <a href=" https://wa.me/8802711791" class="button">Order by Whatsapp</a>
+          <!-- <a href="https://web.whatsapp.com/send?phone=8802711791" class="button">Order by Whatsapp</a> -->
+        </div>
+        <div class="close" id="close">X</div>
+      </div>
+    </div>
+    <section class="footer">
+      <div class="about">
+        <div class="heading">ABOUT THE SHOP</div>
+        <div class="body">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s
+          <div class="social">
+            <img src="./images/facebook.png" alt="facebook" />
+            <img src="./images/twitter.png" alt="twitter" />
+            <img src="./images/linkedin.png" alt="linkedin" />
+            <img src="./images/instagram.png" alt="instagram" />
+          </div>
+          <div class="termsConditions" id="tcButton">Terms & Conditions / Privacy Policy / Returns, Refunds & Cancellation / Shipping Policy</div>
+        </div>
+      </div>
+    </section>
+    <section class="bottomBar">
+      <p>@Siddhi Jewelers & Cosmetics 2020-2022</p>
+      <div>
+        <img src="./images/visa.png" alt="visa" />
+        <img src="./images/mastercard.png" alt="mastercard" />
+        <img src="./images/americanexpress.png" alt="americanexpress" />
+        <img src="./images/paypal.png" alt="paypal" />
+      </div>
+    </section>
+    <div class="modal" id="tcModal">
+      <div class="body">
+      <div class="close" id="tCclose">X</div>
+        <h1>TERMS &amp; CONDITIONS</h1>
+        <p>
+          Copyright and Intellectual Property All information displayed,
+          transmitted or carried on Siddhi9.com is protected by copyright and
+          other intellectual property laws. This site is designed, updated and
+          maintained independently by Siddhi9.com. You should not modify,
+          publish, transmit, transfer, sell, reproduce, create derivative work
+          from, distribute, perform, display or in any way commercially exploit
+          any of the content at Siddhi9.com. </p>
+          <h1>Terms of Use - Disclaimer</h1>
+          <p>Siddhi9.com reserves the right, in its sole discretion, to suspend or
+          cancel the service at any time if a computer virus, bug, or other
+          technical problem corrupts the security or proper administration of
+          the service. Siddhi9.com disclaims all warranties or conditions,
+          whether expressed or implied, (including without limitation implied,
+          warranties or conditions of information and context). We consider
+          ourselves and intend to be subject to the jurisdiction only of the
+          local courts. Siddhi9.com reserves the right to refuse service to
+          anyone at any time and/or cancel order based on our discretion.
+          Siddhi9.com shall not be responsible for any damage caused by the use
+          of its website. </p>
+        </p>
+        <br>
+        <h1>Privacy Policy</h1>
+        <p>At Siddhi9.com, we respect your privacy as much as you do. We do not share your personal
+          information with others. This information is only used by Siddhi9.com and its partners to ensure
+          the fulfilment of the service requested by you. This includes informing you of promotional offers.
+          You can cancel your registration to mark yourself inactive; however, the information you provide
+          shall remain archived in our servers. <br> <br>Siddhi9.com may change this policy from time to time by updating this page. You should check
+          this page from time to time to ensure that you are happy with any changes. This policy is
+          effective from 11 th  May 2021.</p>
+          <h3>What we collect</h3>
+          <p>We may collect the following information:</p>
+          <ul>
+            <li>Customer Name</li>
+            <li>Contact Information including Email Address</li>
+            <li>Demographic information which includes but not limited to Postcode, Preferences and
+              Interests</li>
+            <li>Other information relevant to customer surveys and/or offers</li>
+          </ul>
+          <h3>What we do with the information we gather</h3>
+          <p>We require this information to understand your needs and provide you with a better service, and
+            for the following reasons:</p>
+            <ul>
+              <li>Internal record keeping.</li>
+              <li>We may use the information to improve our products and services.</li>
+              <li>We may periodically send promotional emails about new products, special offers or other
+                information which we think you may find interesting using the email address which you
+                have provided.</li>
+              <li>From time to time, we may also use your information to contact you for market research
+                purposes.
+              <ol>
+                <li>We may contact you via e-mail, phone, fax or mail.</li>
+                <li>We may use the information to customise the website according to your
+                  interests.</li>
+              </ol>
+              </li>
+              <li>
+                <h4>Advertising Unit Id</h4>
+                <p>We have integrated Google Firebase, Facebook Pixel, Google AdWords and Google
+                  Analytics which takes advertising Id. apart from that we do not store and share any of
+                  your data.</p>
+              </li>
+            </ul>
+            <h3>Security</h3>
+            <p>We are committed to ensuring that your information is secure. To prevent unauthorised access
+              or disclosure we have put in place suitable physical, electronic and managerial procedures to
+              safeguard and secure the information we collect online.</p>
+              <h3>How we use cookies</h3>
+              <p>A cookie is a small file which asks permission to be placed on your computer&#39;s hard drive. Once
+                you agree, the file is added, and the cookie helps analyse web traffic or lets you know when you
+                visit a particular site. Cookies allow web applications to respond to you as an individual. The web
+                application can tailor its operations to your needs, likes and dislikes by gathering and
+                remembering information about your preferences. <br><br> We use traffic log cookies to identify which pages are being used. This helps us analyse data
+                about webpage traffic and improve our website to tailor it to customer needs. We only use this
+                information for statistical analysis purposes and then the data is removed from the system. <br><br> Overall, cookies help us provide you with a better website, by enabling us to monitor which pages
+                you find useful and which you do not. A cookie in no way gives us access to your computer or
+                any information about you, other than the data you choose to share with us.<br><br> You can choose to accept or decline cookies. Most web browsers automatically accept cookies,
+                but you can usually modify your browser setting to decline cookies if you prefer. This may
+                prevent you from taking full advantage of the website.</p>
+                <h3>Links to other websites</h3>
+                <p>Our website may contain links to other websites of interest. However, once you have used these
+                  links to leave our site, you should note that we do not have any control over that other website.
+                  Therefore, we cannot be responsible for the protection and privacy of any information which you
+                  provide whilst visiting such sites and such sites are not governed by this privacy statement. You
+                  should exercise caution and look at the privacy statement applicable to the website in question.</p>
+                  <h3>Controlling your personal information</h3>
+                  <ul>
+                    <li>If you have previously agreed to us using your personal information for direct marketing
+                      purposes, you may change your mind at any time by writing to or emailing us at
+                      oraliaaccessories@gmail.com</li>
+                  </ul>
+                  <p>We will not sell, distribute or lease your personal information to third parties unless we have your
+                    permission or are required by law to do so. We may use your personal information to send you
+                    promotional information about third parties which we think you may find interesting if you tell us
+                    that you wish this to happen. <br><br>You may request details of personal information which we hold about you under the Data
+                    Protection Act 1998. A small fee will be payable. If you would like a copy of the information held
+                    on you, please write to us. <br><br>If you believe that any information, we are holding on you is incorrect or incomplete, please write
+                    to or email us as soon as possible, at the above address. We will promptly correct any
+                    information found to be incorrect.</p>
+                    <h1>Returns, Refunds &amp; Cancellation</h1>
+                    <p>
+                      All the products go through an intensive layer of checks before they are dispatched. <br><br>
+                      There are chances that the product might get damaged in transit. <br><br> 
+                      We have a policy where we refund the amount (In form of store credits or discount coupon) if a
+product is broken/damaged/missing when you receive it. To avail it you must send us a video
+while unboxing the products from the courier bag, getting it out of the SEALED courier bag and
+SEALED fully packed box. This leaves no scope for error. Please note in no case the amount will
+be refunded in form of cash. <br> <br>In case you have received the wrong product. You need to call customer support or write to us within 48 hours of the delivery and courier the product back within 15 days of delivery.<br><br>
+If reverse shipping will be available in your area, we will get the products picked up by the courier
+partners. If the courier company delays the process or if the facility is not available in your area,
+you can courier the product back to us. <br><br> In case you courier the product back to us, we will provide you the courier charges in form of
+store credits up to a maximum of Rs. 100. <br><br>Once we receive the product, the complete amount will be provided to you in form of store
+credits for future purchases that you can use at any point in time.<br><br>Make sure you send the invoice along with the product so that the product can be traced back to
+your order.<br><br><b>No exchanges/refund will be provided in case the products are used or in non-saleable
+  condition. All tags and labels need to be intact.</b><br><br><b>Please note, we WILL NOT entertain any cases without the unboxing video.</b><br><br>If you want to cancel an order, please mail us within 24 hours of placing the order (Your amount
+  will be refunded in the form of store credits which can be used to make purchases in the future)<br><br>Please note if your order is packed/dispatched/in-transit, cancellation request will not be
+  entertained.
+                    </p>
+                    <h1>Shipping Policy</h1>
+                    <p>Once your order is placed, it may take up to 5-7 working days to dispatch your order.
+                      Post the parcel is dispatched, shipping takes 2-10 business days or more depending on
+                      conditions in your area/city. <br><br>You will receive a SMS and email when your order is confirmed and a tracking id (on your email
+                      and mobile number) once your order is shipped.<br><br>In case a damaged product has reached you, please get in touch with us within 24 hours of
+                      delivery.</p>
+      </div>
+    </div>
+  </body>
+  <script type="module" src="./script.js"></script>
+</html>
